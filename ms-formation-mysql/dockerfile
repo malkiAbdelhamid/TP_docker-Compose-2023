@@ -1,0 +1,3 @@
+FROM openjdk:17-jdk-alpine
+COPY target/ms-formation-mysql*.jar ms-formation-mysql.jar
+CMD java -jar /ms-formation-mysql.jar
